@@ -4,7 +4,7 @@ group :jekyll_plugins do
     gem 'kramdown-parser-gfm'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
-    gem 'jekyll-email-protect'
+    # gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
     gem 'jekyll-minifier'
