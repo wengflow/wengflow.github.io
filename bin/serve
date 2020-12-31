@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# This bash script is used to build and serve the website 
+# locally for development
+# This script must be executed in the website root directory
+
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
