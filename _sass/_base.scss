@@ -93,7 +93,8 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   width: 100%;
 
   .address {
@@ -241,6 +242,16 @@ blockquote {
   &:hover {
     color: var(--global-hover-color);
   }
+}
+
+// About
+.clearfix {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.same-line {
+  display: inline-block;
 }
 
 // Social (bottom)
