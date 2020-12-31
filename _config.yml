@@ -6,6 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Weng Fei
 middle_name: 
 last_name: Low
+cn_first_name: 永辉
+cn_last_name: 刘
 email: wengfei@u.nus.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Low Weng Fei
@@ -46,7 +48,7 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 footer_fixed: true
 
 # Dimensions
