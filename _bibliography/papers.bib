@@ -1,6 +1,21 @@
 ---
 ---
 
+@InProceedings{low2020_cvprw,
+    author = {Low, Weng Fei and Gao, Zhi and Xiang, Cheng and Ramesh, Bharath},
+    title = {SOFEA: A Non-Iterative and Robust Optical Flow Estimation Algorithm for Dynamic Vision Sensors},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+    month = {June},
+    year = {2020},
+
+    abbr = {CVPRW 2020},
+    abstract = {We introduce the single-shot optical flow estimation algorithm (SOFEA) to non-iteratively compute the continuous-time flow information of events produced from bio-inspired cameras such as the dynamic vision sensor (DVS). The output of a DVS is a stream of asynchronous spikes ("events"), transmitted at very minimal latency (1-10 ms), caused by local brightness changes. Due to this unconventional output, a continuous representation of events over time is invaluable to most applications using the DVS. To this end, SOFEA consolidates the spatio-temporal information on the surface of active events for flow estimation in a single-shot manner, as opposed to iterative methods in the literature. In contrast to previous works, this is also the first principled method towards finding locally optimal set of neighboring events for plane fitting using an adaptation of Prim's algorithm. Consequently, SOFEA produces flow estimates that are more accurate across a wide variety of scenes compared to state-of-the-art methods. A direct application of such flow estimation is rendering sharp event images using the set of active events at a given time, which is further demonstrated and compared to existing works.},
+    pdf = {https://openaccess.thecvf.com/content_CVPRW_2020/papers/w6/Low_SOFEA_A_Non-Iterative_and_Robust_Optical_Flow_Estimation_Algorithm_for_CVPRW_2020_paper.pdf},
+    supp = {https://openaccess.thecvf.com/content_CVPRW_2020/supplemental/Low_SOFEA_A_Non-Iterative_CVPRW_2020_supplemental.pdf},
+    code = {https://bitbucket.org/wengfei_nus/sofea},
+    selected = {true},
+}
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1956investigations,
@@ -41,8 +56,7 @@
   doi={10.1103/PhysRev.47.777},
   url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+  pdf={example_pdf.pdf}
 }
 
 @article{einstein1905molekularkinetischen,
