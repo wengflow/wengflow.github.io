@@ -90,6 +90,16 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// About
+.clearfix {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.same-line {
+  display: inline-block;
+}
+
 // Profile
 
 .profile {
@@ -108,12 +118,18 @@ blockquote {
   }
 }
 
+// when in widescreen mode
 @media (min-width: 576px) {
   .profile {
     width: 30%;
     .address {
       p { display: block; }
     }
+  }
+
+  // prevent text wrapping under profile picture
+  .clearfix {
+    overflow: hidden;
   }
 }
 
@@ -242,16 +258,6 @@ blockquote {
   &:hover {
     color: var(--global-hover-color);
   }
-}
-
-// About
-.clearfix {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.same-line {
-  display: inline-block;
 }
 
 // Social (bottom)
