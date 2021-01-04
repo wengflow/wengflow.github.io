@@ -18,6 +18,17 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
     {% elsif site.icon != blank %}
     <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
+    {% else %}
+    <!-- Generated from realfavicongenerator.net and then Liquid tags are inserted-->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/icon/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/icon/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/icon/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/img/icon/site.webmanifest' | relative_url }}">
+    <link rel="mask-icon" href="{{ '/assets/img/icon/safari-pinned-tab.svg' | relative_url }}" color="#ff7816">
+    <link rel="shortcut icon" href="{{ '/assets/img/icon/favicon.ico' | relative_url }}">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="{{ '/assets/img/icon/browserconfig.xml' | relative_url }}">
+    <meta name="theme-color" content="#ffffff">
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
