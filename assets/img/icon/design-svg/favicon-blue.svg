@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2698BA;}
+	.st1{fill:#00709C;}
+	.st2{fill:#C5CCD3;}
+	.st3{fill:#9EA7AF;}
+	.st4{fill:#5A5A5A;}
+	.st5{fill:#444444;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:#EBEBEB;}
+</style>
+<rect x="75" y="227" class="st0" width="61" height="30"/>
+<rect x="376" y="227" class="st1" width="61" height="30"/>
+<rect x="211" y="133.3" class="st0" width="90" height="98"/>
+<rect x="256" y="133.3" class="st1" width="45" height="98"/>
+<rect x="121" y="197" class="st2" width="270" height="315"/>
+<rect x="256" y="197" class="st3" width="135" height="315"/>
+<path class="st0" d="M181,255.7v178.5h150V255.7H181z"/>
+<rect x="37.8" y="266.7" class="st0" width="30" height="101"/>
+<rect x="444.2" y="266.7" class="st1" width="30" height="101"/>
+<path class="st2" d="M90.1,441.8l-24.9-24.9c6.8-6.8,6.8-18.1,0-24.9c-6.9-6.9-18.1-6.9-24.9,0c-6.8,6.8-6.8,18.1,0,24.9l-24.9,24.9
+	c-20.5-20.5-20.5-54.1,0-74.6s54.1-20.5,74.6,0C110.6,387.7,110.7,421.1,90.1,441.8z"/>
+<rect x="256" y="255.7" class="st1" width="75" height="178.5"/>
+<path class="st3" d="M496.5,441.8l-24.9-24.9c6.8-6.8,6.8-18.1,0-24.9c-6.9-6.9-18.1-6.9-24.9,0c-6.8,6.8-6.8,18.1,0,24.9
+	l-24.9,24.9c-20.5-20.5-20.5-54.1,0-74.6s54.1-20.5,74.6,0C517.1,387.7,517.2,421.1,496.5,441.8z"/>
+<path class="st2" d="M52.8,287c-24.8,0-45-20.2-45-45s20.2-45,45-45s45,20.2,45,45S77.6,287,52.8,287z"/>
+<path class="st3" d="M459.2,287c-24.8,0-45-20.2-45-45s20.2-45,45-45s45,20.2,45,45S484,287,459.2,287z"/>
+<rect x="176.2" class="st2" width="159.7" height="152.3"/>
+<rect x="256" class="st3" width="79.8" height="152.3"/>
+<rect x="176.2" y="44.1" class="st4" width="159.7" height="64.1"/>
+<rect x="256" y="44.1" class="st5" width="79.8" height="64.1"/>
+<circle class="st4" cx="176.2" cy="76.2" r="76.2"/>
+<circle class="st5" cx="335.8" cy="76.2" r="76.2"/>
+<path class="st6" d="M176.2,140.2c-35.3,0-64.1-28.7-64.1-64.1S140.8,12,176.2,12s64.1,28.7,64.1,64.1S211.5,140.2,176.2,140.2z"/>
+<path class="st7" d="M335.8,140.2c-35.3,0-64.1-28.7-64.1-64.1S300.4,12,335.8,12s64.1,28.7,64.1,64.1S371.2,140.2,335.8,140.2z"/>
+<circle class="st4" cx="176.2" cy="76.2" r="32"/>
+<circle class="st5" cx="335.8" cy="76.2" r="32"/>
+</svg>
