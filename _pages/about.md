@@ -24,7 +24,7 @@ In general, I am interested in the research and development of intelligent robot
 
 My current research focuses on the aspect of perception, particularly vision :eyes:. I hope to progress towards complete scene understanding, and ultimately human-level semantic understanding of the real world :earth_asia:.
 
-My areas of interest include 3D Computer Vision, Embodied AI, Sim2Real and Efficient Learning.
+My areas of interest include 3D Computer Vision, Scene Understanding, Embodied AI, Sim2Real and Efficient Learning.
 
 {% comment %} 
 My recent works are on?
