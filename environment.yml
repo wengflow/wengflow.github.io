@@ -1,0 +1,12 @@
+name: website
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ruby                # It is important to ensure `ruby` is installed from the
+                        # `conda-forge` channel to prevent gem native extension 
+                        # build errors. This happens at least in `ruby=2.5.1` from
+                        # the default `anaconda` channel on the `osx-64` arch.
+  - clangxx_osx-arm64   # apple silicon
+  # - clangxx_osx-64    # intel
+  - nodejs              # install `mermaid` with `npm install -g mermaid.cli`
