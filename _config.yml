@@ -189,9 +189,14 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets/**/*.*"
+      # path: "assets/**/*.*"
+      path: "**"
     values:
       sitemap: false
+  - scope:
+      path: "_pages/about.md"
+    values:
+      sitemap: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
