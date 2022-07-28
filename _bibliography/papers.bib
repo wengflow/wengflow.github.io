@@ -1,11 +1,24 @@
 ---
 ---
+@inproceedings{low2022_mna,
+    title = {Minimal Neural Atlas: Parameterizing Complex Surfaces with Minimal Charts and Distortion},
+    author = {Low, Weng Fei and Lee, Gim Hee},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    year = {2022},
 
-@InProceedings{low2020_cvprw,
-    author = {Low, Weng Fei and Gao, Zhi and Xiang, Cheng and Ramesh, Bharath},
+    abbr = {ECCV 2022},
+    abstract = {Explicit neural surface representations allow for exact and efficient extraction of the encoded surface at arbitrary precision, as well as analytic derivation of differential geometric properties such as surface normal and curvature. Such desirable properties, which are absent in its implicit counterpart, makes it ideal for various applications in computer vision, graphics and robotics. However, SOTA works are limited in terms of the topology it can effectively describe, distortion it introduces to reconstruct complex surfaces and model efficiency. In this work, we present Minimal Neural Atlas, a novel atlas-based explicit neural surface representation. At its core is a fully learnable parametric domain, given by an implicit probabilistic occupancy field defined on an open square of the parametric space. In contrast, prior works generally predefine the parametric domain. The added flexibility enables charts to admit arbitrary topology and boundary. Thus, our representation can learn a minimal atlas of 3 charts with distortion-minimal parameterization for surfaces of arbitrary topology, including closed and open surfaces with arbitrary connected components. Our experiments support the hypotheses and show that our reconstructions are more accurate in terms of the overall geometry, due to the separation of concerns on topology and geometry.},
+    arxiv = {},
+    code = {https://github.com/low5545/minimal-neural-atlas},
+    bibtex_show = {true},
+    preview={mna.jpg},
+    selected = {true}
+}
+
+@inproceedings{low2020_sofea,
     title = {SOFEA: A Non-Iterative and Robust Optical Flow Estimation Algorithm for Dynamic Vision Sensors},
+    author = {Low, Weng Fei and Gao, Zhi and Xiang, Cheng and Ramesh, Bharath},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-    month = {June},
     year = {2020},
 
     abbr = {CVPRW 2020},
@@ -13,8 +26,11 @@
     pdf = {https://openaccess.thecvf.com/content_CVPRW_2020/papers/w6/Low_SOFEA_A_Non-Iterative_and_Robust_Optical_Flow_Estimation_Algorithm_for_CVPRW_2020_paper.pdf},
     supp = {https://openaccess.thecvf.com/content_CVPRW_2020/supplemental/Low_SOFEA_A_Non-Iterative_CVPRW_2020_supplemental.pdf},
     code = {https://bitbucket.org/wengfei_nus/sofea},
-    selected = {true},
+    bibtex_show = {true},
+    preview={sofea.jpg},
+    selected = {true}
 }
+
 
 @string{aps = {American Physical Society,}}
 
