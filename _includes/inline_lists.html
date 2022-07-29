@@ -1,0 +1,24 @@
+          
+          {% for list in page.inline_lists %}
+          <div class="inline_list">
+            <h2>{{ list | replace: "_", " " }}</h2>
+            
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+              {% for row in site.data.inline_lists[list] %}
+                <tr>
+                  <th>
+                    {{ row.header | remove: '<p>' | remove: '</p>' | emojify }}
+                  </th>
+                  {% for item in row.data %}
+                  <td>
+                    {{ item | remove: '<p>' | remove: '</p>' | emojify }}
+                  </td>
+                  {%- endfor %}
+                </tr>
+              {%- endfor %}
+              </table>
+            </div>
+
+          </div>
+          {% endfor %}
