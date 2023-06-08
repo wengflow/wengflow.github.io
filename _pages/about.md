@@ -22,7 +22,7 @@ inline_lists:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi :wave:! I'm from Kuala Lumpur, Malaysia :malaysia:. I'm currently a Ph.D. student working under the supervision of [Assoc. Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/) at the [Institute of Data Science, National University of Singapore](http://ids.nus.edu.sg). I obtained my B.Eng. (Hons.) degree :mortar_board: in Computer Engineering from National University of Singapore in 2020.
+Hi :wave:! I'm from Kuala Lumpur, Malaysia :malaysia:. I'm currently a 3rd-year Ph.D. student working under the supervision of [Assoc. Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/) at the [Institute of Data Science, National University of Singapore](http://ids.nus.edu.sg). I obtained my B.Eng. (Hons.) degree :mortar_board: in Computer Engineering from National University of Singapore in 2020.
 
 In general, I'm interested in the research and development of **intelligent robots** :robot:. I firmly believe that their introduction will immensely improve the quality of our everyday lives, especially through the automation of mundane, repetitive and laborious tasks.
 
