@@ -15,6 +15,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_patents: true # includes a list of patents marked as "selected={true}"
 inline_lists:
   - teaching_assistants
   - awards

@@ -49,6 +49,10 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+          {% if page.selected_patents -%}
+            <!-- Selected patents -->
+            {%- include selected_patents.html %}
+          {%- endif %}
           {% if page.inline_lists -%}
             <!-- Inline lists -->
             {%- include inline_lists.html %}
