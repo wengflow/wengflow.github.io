@@ -29,6 +29,8 @@ My current research focuses on the aspect of **perception**, particularly **visi
 
 My areas of interest include **scene representation, reconstruction, localization & understanding**, as well as **3D computer vision** in general.
 
+I am open to collaborating with people who share the same passion :fire:. In particular for NUS master's / undergraduate students, do drop me an email if you are interested to work with me and my supervisor for your dissertation / UROP.
+
 {% comment %} 
 My recent works are on?
 {% endcomment %} 
