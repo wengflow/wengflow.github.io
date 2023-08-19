@@ -1,6 +1,6 @@
 # My Personal Website
 
-[![Continuous Deployment Status](https://github.com/low5545/low5545.github.io/workflows/deploy/badge.svg?branch=master&event=push)](https://github.com/low5545/low5545.github.io/actions?query=workflow%3Adeploy+event%3Apush)
+[![Continuous Deployment Status](https://github.com/wengflow/wengflow.github.io/workflows/deploy/badge.svg?branch=master&event=push)](https://github.com/wengflow/wengflow.github.io/actions?query=workflow%3Adeploy+event%3Apush)
 
 This personal website is based on the [al-folio](https://github.com/alshedivat/al-folio) theme. It is statically generated with [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com). The `master` and `gh-pages` branch of this repository houses the source files and generated static content of this website respectively. When commits are pushed to the `master` branch, a [GitHub Actions](https://github.com/features/actions) workflow will be triggered for automated website deployment.
 
