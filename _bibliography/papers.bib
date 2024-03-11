@@ -1,15 +1,12 @@
 ---
 ---
-@misc{yan2023_anti-aliased-gaussian,
+@inproceedings{yan2023_anti-aliased-gaussian,
     title = {Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering},
     author = {Yan, Zhiwen and Low, Weng Fei and Chen, Yu and Lee, Gim Hee},
-    year = {2023},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year = {2024},
 
-    eprint={2311.17089},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-
-    abbr = {arXiv 2023},
+    abbr = {CVPR 2024},
     abstract = {3D Gaussians have recently emerged as a highly efficient representation for 3D reconstruction and rendering. Despite its high rendering quality and speed at high resolutions, they both deteriorate drastically when rendered at lower resolutions or from far away camera position. During low resolution or far away rendering, the pixel size of the image can fall below the Nyquist frequency compared to the screen size of each splatted 3D Gaussian and leads to aliasing effect. The rendering is also drastically slowed down by the sequential alpha blending of more splatted Gaussians per pixel. To address these issues, we propose a multi-scale 3D Gaussian splatting algorithm, which maintains Gaussians at different scales to represent the same scene. Higher-resolution images are rendered with more small Gaussians, and lower-resolution images are rendered with fewer larger Gaussians. With similar training time, our algorithm can achieve 13%-66% PSNR and 160%-2400% rendering speed improvement at 4x-128x scale rendering on Mip-NeRF360 dataset compared to the single scale 3D Gaussian splatting.},
     website = {https://jokeryan.github.io/projects/ms-gs/},
     arxiv = {2311.17089},
