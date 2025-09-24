@@ -18,20 +18,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 selected_patents: true # includes a list of patents marked as "selected={true}"
 inline_lists:
   - teaching_assistants
+  - projects
   - awards
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi :wave:! I'm from Kuala Lumpur, Malaysia :malaysia:. I'm currently a 3rd-year Ph.D. student working under the supervision of [Assoc. Prof. Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/) at the [Institute of Data Science, National University of Singapore](http://ids.nus.edu.sg). I obtained my B.Eng. (Hons.) degree :mortar_board: in Computer Engineering from National University of Singapore in 2020.
+Hi :wave:! I'm from Kuala Lumpur, Malaysia :malaysia:.
 
-In general, I'm interested in the research and development of **intelligent robots** :robot:. I firmly believe that their introduction will immensely improve the quality of our everyday lives, especially through the automation of mundane, repetitive and laborious tasks.
+I recently graduated with a PhD :mortar_board: under the supervision of [Associate Professor Gim Hee Lee](https://www.comp.nus.edu.sg/~leegh/) at the [Institute of Data Science, National University of Singapore (NUS)](http://ids.nus.edu.sg). I previously obtained my Bachelor of Engineering (Honors) in Computer Engineering also from NUS in 2020.
 
-My current research focuses on the aspect of **perception**, particularly **vision** :eyes:. I hope to progress towards complete scene understanding, and ultimately human-level semantic understanding of the world :earth_asia:.
+My research interest lies in 3D computer vision, with a particular focus on **3D scene representation, reconstruction and localization**.
 
-My areas of interest include **scene representation, reconstruction, localization & understanding**, as well as **3D computer vision** in general.
+**I am currently in the job market** :mag_right:. Do reach out if you have any opportunities that you think I might be a good fit for!
 
-I am open to collaborating with people who share the same passion :fire:. In particular for NUS master's / undergraduate students, do drop me an email if you are interested to work with me and my supervisor for your dissertation / UROP.
-
-{% comment %} 
+{% comment %}
 My recent works are on?
-{% endcomment %} 
+{% endcomment %}

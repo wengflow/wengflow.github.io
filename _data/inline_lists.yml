@@ -9,7 +9,7 @@ teaching_assistants:
 awards:
   - header: NUS School of Computing Research Achievement Award
     data: 
-      - Jan 2024
+      - Jan 2024, Feb 2025
   - header: NUS IDS Student Research Achievement Award
     data: 
       - Dec 2022
@@ -31,3 +31,11 @@ awards:
   - header: ASEAN Undergraduate Scholarship
     data: 
       - Mar 2016
+
+projects:
+  - header: "Smart Pet Collar for Early Symptom Detection — National GRIP Run 2"
+    data:
+      - Jul 2025 - Now
+  - header: "Bumblebee Autonomous Systems — Autonomous Underwater and Surface Vehicles"
+    data:
+      - Sep 2017 - May 2020

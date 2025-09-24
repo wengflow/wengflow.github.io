@@ -1,5 +1,23 @@
 ---
 ---
+@inproceedings{low2024_deblur-e-nerf,
+  title = {Deblur e-NeRF: NeRF from Motion-Blurred Events under High-speed or Low-light Conditions},
+  author = {Low, Weng Fei and Lee, Gim Hee},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2024},
+
+  abbr = {ECCV 2024},
+  abstract = {The distinctive design philosophy of event cameras makes them ideal for high-speed, high dynamic range & low-light environments, where standard cameras underperform. However, event cameras also suffer from motion blur, especially under these challenging conditions, contrary to what most think. This is due to the limited bandwidth of the event sensor pixel, which is mostly proportional to the light intensity. Thus, to ensure event cameras can truly excel in such conditions where it has an edge over standard cameras, event motion blur must be accounted for in downstream tasks, especially reconstruction. However, no prior work on reconstructing Neural Radiance Fields (NeRFs) from events, nor event simulators, have considered the full effects of event motion blur. To this end, we propose, Deblur e-NeRF, a novel method to directly and effectively reconstruct blur-minimal NeRFs from motion-blurred events, generated under high-speed or low-light conditions. The core component of this work is a physically-accurate pixel bandwidth model that accounts for event motion blur. We also introduce a threshold-normalized total variation loss to better regularize large textureless patches. Experiments on real & novel realistically simulated sequences verify our effectiveness. Our code, event simulator and synthetic event dataset are open-sourced.},
+  website = {https://wengflow.github.io/deblur-e-nerf},
+  arxiv = {2409.17988},
+  code = {https://github.com/wengflow/deblur-e-nerf},
+  simulator = {https://github.com/wengflow/rpg_esim},
+  dataset = {https://huggingface.co/datasets/wengflow/deblur-e-nerf},
+  bibtex_show = {true},
+  preview = {deblur-e-nerf.png},
+  selected = {true}
+}
+
 @inproceedings{yan2023_anti-aliased-gaussian,
     title = {Multi-Scale 3D Gaussian Splatting for Anti-Aliased Rendering},
     author = {Yan, Zhiwen and Low, Weng Fei and Chen, Yu and Lee, Gim Hee},
