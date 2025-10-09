@@ -1,3 +1,11 @@
+experience:
+  - header: "Research Scientist Intern — Meta Reality Labs, Zurich"
+    data:
+      - Dec 2024 - Mar 2025
+  - header: "Autonomous Vehicle Intern — nuTonomy (now Motional), Singapore"
+    data:
+      - Jun 2018 - Dec 2018
+
 teaching_assistants:
   - header: "CS5340: Uncertainty Modelling in AI"
     data:
